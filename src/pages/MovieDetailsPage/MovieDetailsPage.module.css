@@ -1,0 +1,101 @@
+.container {
+    padding: 20px;
+}
+
+.backButton {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 8px 15px;
+    cursor: pointer;
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+.backButton:hover,
+.backButton:focus {
+    background-color: #5a6268;
+}
+
+.detailsContainer {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.poster {
+    width: 300px;
+    height: auto;
+    max-height: 450px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.info {
+    flex: 1;
+}
+
+.info h1 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.info h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+.info p {
+    line-height: 1.6;
+}
+
+.additionalInfo {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.additionalInfo h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.detailsNav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.detailsLink {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 500;
+    padding: 5px 0;
+    transition: color 0.2s ease;
+}
+
+.detailsLink:hover,
+.detailsLink:focus {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.activeDetailsLink {
+    color: #dc3545;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.error {
+    color: red;
+}

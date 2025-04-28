@@ -1,0 +1,14 @@
+.container {
+    padding: 20px;
+}
+
+.title {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}

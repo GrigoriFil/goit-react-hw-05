@@ -1,0 +1,45 @@
+.list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.listItem {
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: transform 0.2s ease-in-out;
+}
+
+.link:hover,
+.link:focus {
+    transform: scale(1.03);
+}
+
+.poster {
+    width: 100%;
+    height: auto;
+    max-height: 270px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.movieTitle {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.titleFallback {
+    display: block;
+    padding: 20px;
+    font-weight: bold;
+}

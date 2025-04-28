@@ -1,0 +1,44 @@
+.castContainer {
+    padding: 20px 0;
+}
+
+.castList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.castItem {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.profileImage {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #e9ecef;
+}
+
+.name {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+
+.character {
+    font-size: 0.8rem;
+    color: #6c757d;
+}
+
+.error {
+    color: red;
+}
