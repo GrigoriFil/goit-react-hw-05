@@ -10,11 +10,10 @@ const NotFoundPage = lazy(() => import('./pages/NotFoundPage/NotFoundPage'));
 const MovieCast = lazy(() => import('./components/MovieCast/MovieCast'));
 const MovieReviews = lazy(() => import('./components/MovieReviews/MovieReviews'));
 
-const basename = import.meta.env.PROD ? "/goit-react-hw-05/" : "/";
 
 function App() {
   return (
-    <BrowserRouter basename={basename}>
+    <BrowserRouter>
       <Navigation />
       <div className={styles.appContainer}>
         <Suspense fallback={<div>Loading page...</div>}>
